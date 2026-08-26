@@ -1,0 +1,39 @@
+{
+  "name": "checkout-multipaso",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint",
+    "test:e2e": "playwright test e2e/smoke.spec.ts e2e/a11y.spec.ts",
+    "test:lighthouse": "playwright test e2e/lighthouse.spec.ts",
+    "test:e2e:all": "playwright test"
+  },
+  "dependencies": {
+    "@hookform/resolvers": "^5.9.1",
+    "framer-motion": "^13.1.1",
+    "next": "16.3.3",
+    "react": "19.2.8",
+    "react-dom": "19.2.8",
+    "react-hook-form": "^7.86.0",
+    "zod": "^4.4.3",
+    "zustand": "^5.0.15"
+  },
+  "devDependencies": {
+    "@axe-core/playwright": "^4.13.0",
+    "@playwright/test": "^1.62.1",
+    "@tailwindcss/postcss": "^4",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "eslint": "^9",
+    "eslint-config-next": "16.3.3",
+    "get-port": "^7.2.0",
+    "lighthouse": "^12.8.2",
+    "playwright-lighthouse": "^4.0.0",
+    "tailwindcss": "^4",
+    "typescript": "^5"
+  }
+}
