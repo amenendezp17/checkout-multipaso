@@ -2,8 +2,7 @@
 
 Demo de portfolio: flujo de compra completo (catálogo → carrito → checkout
 en 3 pasos → confirmación) en Next.js 16 (App Router) + TypeScript +
-Tailwind CSS. Especificación completa en
-[spec-proyecto-checkout-multipaso.md](spec-proyecto-checkout-multipaso.md).
+Tailwind CSS. 
 
 ## Stack
 
